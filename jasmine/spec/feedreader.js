@@ -61,8 +61,8 @@ $(function() {
           });
           //check if there is more than 0 .entry inside .feed
           it('check if there is more than 0 entries', function(){
-            expect($('.entry').length).toBeGreaterThan(0);
-            expect($('.feed').length).toBeGreaterThan(0);
+            expect($('.feed .entry').length).toBeGreaterThan(0);
+
           });
 
          });
